@@ -6,7 +6,7 @@ return {
         theme = 'dracula'
       },
       sections = {
-        lualine_x = {"encoding", { "fileformat", symbols = { unix = "" } }, "filetype"},
+        lualine_x = {"encoding", { "fileformat", symbols = { unix = "" } }, "filetype"},
       }
     })  
   end
