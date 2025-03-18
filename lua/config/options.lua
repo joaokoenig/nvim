@@ -15,12 +15,14 @@ return {
           cmd = { "tflint", "--langserver" },
         },
         tailwindcss = {},
+        eslint = {},
+        cssls = {},
       },
     },
   },
   {
     "williamboman/mason.nvim",
-    opts = { ensure_installed = { "tflint", "terraformls", "tailwindcss", "eslint" } },
+    opts = { ensure_installed = { "tflint", "terraformls", "tailwindcss", "eslint", "cssls" } },
   },
   {
     "nvim-treesitter/nvim-treesitter",
